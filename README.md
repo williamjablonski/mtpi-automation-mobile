@@ -16,12 +16,12 @@ To install the dependencies for the project run ```$ bundle install ``` in the p
 
 To run the automation on your local you can follow the example below.
 ```
-bundle exec cucumber features/SearchAgency.feature APP=triagulo.apk
+bundle exec cucumber features/Triangulo.feature APP=triagulo.apk
 ```
 
 To run the automation in Browser Stack you can follow the example below. (feature filter)
 ```
-bundle exec cucumber features/SearchAgency.feature APP=triagulo.apk BROWSER=browserstack BR_STACK_USER=williamjablonski1 BR_STACK_PASS=zEqdMBRVVqr3sM95SLaj
+bundle exec cucumber features/Triangulo.feature APP=triagulo.apk BROWSER=browserstack BR_STACK_USER=williamjablonski1 BR_STACK_PASS=zEqdMBRVVqr3sM95SLaj
 ```
 or (to all features)
 ```
